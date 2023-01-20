@@ -12,7 +12,7 @@ then register the ngrok url to receive the request from Rapyd.
 * Log in to your Rapyd account
 * Make sure you are using the panel in "sandbox" mode (switch in the top right part of the panel)
 * Go to the "Developers" tab. You will find your API keys there. Copy them and update the values in the utilities.py
-* Go to the "Webhooks" tab and enter the URL where the application listens for events. By default it is "https://{YOUR_BASE_URL}/rapyd-webhooks" and mark which events should be reported to your app
+* Go to the "Webhooks" tab and enter the URL where the application listens for events. By default it is "https://{YOUR_BASE_URL}/rapyd-webhooks" ( see app.py route definitions ) and mark which events should be reported to your app
 * Proceed to the next steps to run the app in your dev environment.
 
 
