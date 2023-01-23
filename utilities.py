@@ -12,8 +12,8 @@ Replace base_url, access_key and secret key
 accordingly (sandbox vs production)
 """
 base_url = 'https://sandboxapi.rapyd.net'
-secret_key = 'e62cf8f110b8fa328005f6dba92845931c4ed1fdb2059ca29f336be94db15de992a1ac0860cc188c'
-access_key = '899BD0089EFCF634FD84'
+secret_key = '<secret_key>'
+access_key = '<access_key>'
 
 """
 Generates and returns a unique random salt.

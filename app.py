@@ -48,6 +48,8 @@ def app_home():
 
 @app.route('/rapyd-webhooks', methods=['POST'])
 def rapyd_webhooks():
-    print(request)
+    print("Data received from Rapyd Webhook event is : ", request.json)
+    return "Data received"
+
 
 app.run(debug=True)
